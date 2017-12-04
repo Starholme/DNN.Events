@@ -7,7 +7,7 @@
 <%@ Register TagPrefix="dnn" Assembly="DotNetNuke.Web.Deprecated" Namespace="DotNetNuke.Web.UI.WebControls" %>
 
 <dnn:DnnToolTipManager 
-        ID="toolTipManager" runat="server"  HideEvent="LeaveTargetAndToolTip" Modal="False" EnableShadow="True" CssClass="Eventtooltip" ShowCallout="False" />
+        ID="toolTipManager" runat="server"  HideEvent="LeaveTargetAndToolTip" Modal="False" EnableShadow="True" CssClass="Eventtooltip" ShowCallout="False" RelativeTo="Element" />
 <div>
     <div class="EvtHdrLftCol"></div>
     <div class="EvtHdrMdlCol">
